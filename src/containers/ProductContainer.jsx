@@ -1,5 +1,6 @@
 import ProductCarousel from "../components/product/ProductCarousel";
 import ProductDescription from "../components/product/ProductDescription";
+import ProductPrice from "../components/product/ProductPrice";
 import { PRODUCT } from "../constants/constants";
 
 function ProductContainer() {
@@ -11,6 +12,7 @@ function ProductContainer() {
         title={PRODUCT.title}
         content={PRODUCT.content}
       />
+      <ProductPrice price={PRODUCT.price} />
     </div>
   );
 }
