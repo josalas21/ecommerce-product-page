@@ -1,11 +1,11 @@
 import Navbar from "./components/navbar/Navbar";
-import ProductCarousel from "./components/product/ProductCarousel";
+import ProductContainer from "./containers/ProductContainer";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <ProductCarousel />
+      <ProductContainer />
     </div>
   );
 }

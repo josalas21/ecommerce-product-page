@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { PRODUCTS } from "../../constants/constants";
 
-function ProductCarousel() {
-  const images = PRODUCTS.images;
+function ProductCarousel({ images }) {
   const [index, setIndex] = useState(0);
 
   const previous = () => {
@@ -14,6 +12,7 @@ function ProductCarousel() {
 
   return (
     <>
+      {console.log(images)}
       <div class="relative bg-cover bg-center sm:hidden ">
         <img class=" bg-cover bg-center" src={images[index]} alt={index} />
         <button
