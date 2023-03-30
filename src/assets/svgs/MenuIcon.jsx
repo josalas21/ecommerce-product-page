@@ -1,7 +1,7 @@
 function MenuIcon() {
   return (
     <svg
-      class="h-4 w-4 fill-gray-600 md:hidden"
+      class="h-4 w-4 fill-gray-600 sm:hidden"
       viewBox="0 0 16 16"
       fill="currentColor"
     >

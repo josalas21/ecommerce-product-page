@@ -1,4 +1,4 @@
-function CartIcon({ color }) {
+function CartIcon() {
   return (
     <svg
       fill="currentColor"
