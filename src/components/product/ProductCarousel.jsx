@@ -1,4 +1,6 @@
 import { useState } from "react";
+import PreviousButton from "./buttons/PreviousButton";
+import NextButton from "./buttons/NextButton";
 
 function ProductCarousel({ images }) {
   const [index, setIndex] = useState(0);
@@ -12,21 +14,10 @@ function ProductCarousel({ images }) {
 
   return (
     <>
-      {console.log(images)}
       <div class="relative bg-cover bg-center sm:hidden ">
         <img class=" bg-cover bg-center" src={images[index]} alt={index} />
-        <button
-          class="absolute left-5 top-[50%] -translate-x-0 translate-y-[-50%] cursor-pointer rounded-full bg-black/20 p-2 text-2xl text-white"
-          onClick={previous}
-        >
-          {"<"}
-        </button>
-        <button
-          class="absolute right-5 top-[50%] -translate-x-0 translate-y-[-50%] cursor-pointer rounded-full bg-black/20 p-2 text-2xl text-white"
-          onClick={next}
-        >
-          {">"}
-        </button>
+        <PreviousButton previous={previous} />
+        <NextButton next={next} />
       </div>
     </>
   );
