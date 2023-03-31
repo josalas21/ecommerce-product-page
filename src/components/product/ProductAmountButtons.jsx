@@ -1,5 +1,4 @@
-import MinusButton from "./buttons/MinusButton";
-import PlusButton from "./buttons/PlusButton";
+import { MinusButton, PlusButton } from "../../components";
 
 function ProductAmountButtons({ itemCount, addItem, subtractItem }) {
   return (

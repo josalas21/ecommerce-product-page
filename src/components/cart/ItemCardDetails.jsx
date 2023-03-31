@@ -1,6 +1,4 @@
-import { DeleteIcon } from "../../assets";
-
-function CartTabWithItems({ PRODUCT, cartItems, deleteCartItems }) {
+function ItemCardDetails({ PRODUCT, cartItems }) {
   return (
     <>
       <img class="h-16 w-16" src={PRODUCT.thumbnails[0]} alt="title" />
@@ -10,11 +8,8 @@ function CartTabWithItems({ PRODUCT, cartItems, deleteCartItems }) {
           <b class="font-medium text-black"> ${PRODUCT.price * cartItems} </b>
         </p>
       </div>
-      <button onClick={deleteCartItems}>
-        <DeleteIcon />
-      </button>
     </>
   );
 }
 
-export default CartTabWithItems;
+export default ItemCardDetails;

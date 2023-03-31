@@ -1,4 +1,4 @@
-import { NextIcon } from "../../../assets";
+import { NextIcon } from "../../assets";
 
 function NextButton({ next }) {
   return (

@@ -1,5 +1,4 @@
-import Navbar from "../components/navbar/Navbar";
-import ProductLayout from "../components/product/ProductLayout";
+import { Navbar, ProductLayout } from "../components";
 import { PRODUCT } from "../constants/constants";
 import { useState } from "react";
 

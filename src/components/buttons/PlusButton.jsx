@@ -1,4 +1,4 @@
-import { PlusIcon } from "../../../assets";
+import { PlusIcon } from "../../assets";
 
 function PlusButton({ addItem }) {
   return (

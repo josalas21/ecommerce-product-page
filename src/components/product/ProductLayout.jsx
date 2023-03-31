@@ -1,9 +1,11 @@
-import ProductAmountButtons from "./ProductAmountButtons";
-import ProductCarousel from "./ProductCarousel";
-import ProductDescription from "./ProductDescription";
-import ProductGallery from "./ProductGallery";
-import ProductPrice from "./ProductPrice";
-import CartButton from "./buttons/CartButton";
+import {
+  ProductGallery,
+  ProductCarousel,
+  ProductDescription,
+  ProductPrice,
+  ProductAmountButtons,
+  CartButton,
+} from "../../components";
 
 function ProductLayout({
   PRODUCT,

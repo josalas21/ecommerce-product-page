@@ -1,5 +1,4 @@
-import CartTabNoItems from "./CartTabNoItems";
-import CartTabWithItems from "./CartTabWithItems";
+import { CartTabNoItems, CartTabWithItems } from "../../components";
 
 function CartTab({ cartItems, PRODUCT, deleteCartItems }) {
   return (

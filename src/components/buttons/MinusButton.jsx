@@ -1,4 +1,4 @@
-import { MinusIcon } from "../../../assets";
+import { MinusIcon } from "../../assets";
 
 function MinusButton({ subtractItem }) {
   return (

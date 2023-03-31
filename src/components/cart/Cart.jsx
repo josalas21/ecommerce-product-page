@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CartIcon, DeleteIcon } from "../../assets";
+import { CartIcon } from "../../assets";
 import CartTab from "./CartTab";
 
 function Cart({ cartItems, PRODUCT, deleteCartItems }) {

@@ -1,6 +1,5 @@
 import { useState } from "react";
-import PreviousButton from "./buttons/PreviousButton";
-import NextButton from "./buttons/NextButton";
+import { PreviousButton, NextButton } from "../../components";
 
 function ProductCarousel({ images }) {
   const [index, setIndex] = useState(0);

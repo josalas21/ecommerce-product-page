@@ -1,4 +1,4 @@
-import { PreviousIcon } from "../../../assets";
+import { PreviousIcon } from "../../assets";
 
 function PreviousButton({ previous }) {
   return (

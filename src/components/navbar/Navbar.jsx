@@ -1,5 +1,5 @@
 import { Logo, MenuIcon } from "../../assets";
-import Cart from "./Cart";
+import { Cart } from "../../components";
 
 function Navbar({ cartItems, PRODUCT, deleteCartItems }) {
   return (
