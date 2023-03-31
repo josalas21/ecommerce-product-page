@@ -17,25 +17,13 @@ function ProductGallery({ images, thumbnails }) {
       <div class="flex container gap-4 justify-between">
         {thumbnails.map((thumb) => (
           <button
-            class="focus:opacity-40"
+            class="hover:opacity-40"
             onClick={() => handleClick(thumbnails.indexOf(thumb))}
           >
             <img width={90} height={90} src={thumb} alt="" />
           </button>
         ))}
       </div>
-      {/* <button class="focus:opacity-40" onClick={() => handleClick(0)}>
-        <img width={90} height={90} src={thumbnails[0]} alt="" />
-      </button>
-      <button onClick={() => handleClick(1)}>
-        <img width={90} height={90} src={thumbnails[1]} alt="" />
-      </button>
-      <button onClick={() => handleClick(2)}>
-        <img width={90} height={90} src={thumbnails[2]} alt="" />
-      </button>
-      <button onClick={() => handleClick(3)}>
-        <img width={90} height={90} src={thumbnails[3]} alt="" />
-      </button> */}
     </div>
   );
 }

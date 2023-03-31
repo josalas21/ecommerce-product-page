@@ -13,7 +13,7 @@ export const PRODUCT = {
   title: "Fall Limited Edition Sneakers",
   content:
     "These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.",
-  price: "$125.00",
+  price: "125.00",
   images: [img1, img2, img3, img4],
   thumbnails: [thumb1, thumb2, thumb3, thumb4],
 };

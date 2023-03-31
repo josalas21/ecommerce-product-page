@@ -1,8 +1,8 @@
 import { PlusIcon } from "../../../assets";
 
-function PlusButton() {
+function PlusButton({ addItem }) {
   return (
-    <button class="text-xl font-bold text-orange-500">
+    <button class="text-xl font-bold text-orange-500" onClick={addItem}>
       <PlusIcon />
     </button>
   );
