@@ -2,6 +2,8 @@
 
 This is a product page built with React and Tailwind CSS. It showcases a product with an image, a title, a price, and a description. Users can add the product to their cart and see the total price of their cart.
 
+- [Demo](https://ecommerce-product-josalas21.vercel.app)
+
 ## Installation
 
 To run this project locally, follow these steps:
