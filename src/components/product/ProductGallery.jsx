@@ -6,21 +6,22 @@ function ProductGallery({ images, thumbnails }) {
     setIndex(id);
   };
   return (
-    <div class="flex-wrap w-[29rem] gap-2 mx-auto hidden sm:flex">
+    <div className="flex-wrap w-[29rem] gap-2 mx-auto hidden sm:flex">
       <img
-        class="basis-full"
+        className="basis-full"
         width={400}
         height={400}
         src={images[index]}
         alt={index}
       />
-      <div class="flex container gap-4 justify-between">
+      <div className="flex container gap-4 justify-between">
         {thumbnails.map((thumb) => (
           <button
-            class="hover:opacity-40"
-            onClick={() => handleClick(thumbnails.indexOf(thumb))}
+            className="hover:opacity-40"
+            onClick={() => handleClick(() => thumbnails.indexOf(thumb))}
+            key={thumb.id}
           >
-            <img width={90} height={90} src={thumb} alt="" />
+            <img width={90} height={90} src={thumb.img} alt="" />
           </button>
         ))}
       </div>

@@ -4,9 +4,9 @@ function PreviousIcon() {
       <path
         d="M11 1 3 9l8 8"
         stroke="#ffffff"
-        stroke-width="3"
+        strokeWidth="3"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       />
     </svg>
   );

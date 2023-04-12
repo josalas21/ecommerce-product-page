@@ -13,8 +13,8 @@ function ProductCarousel({ images }) {
 
   return (
     <>
-      <div class="relative bg-cover bg-center sm:hidden ">
-        <img class=" bg-cover bg-center" src={images[index]} alt={index} />
+      <div className="relative bg-cover bg-center sm:hidden ">
+        <img className=" bg-cover bg-center" src={images[index]} alt={index} />
         <PreviousButton previous={previous} />
         <NextButton next={next} />
       </div>

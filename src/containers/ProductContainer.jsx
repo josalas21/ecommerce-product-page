@@ -9,7 +9,6 @@ function ProductContainer() {
   const deleteCartItems = () => {
     setCartItems(0);
   };
-
   const handleCartItems = () => {
     setCartItems(cartItems + itemCount);
     setItemCount(0);
